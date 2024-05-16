@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 body{
     background-color: var(--roxoescuro);
     color: whitesmoke;
+    font-family: var(--texto-corpo);
 }
 
 :root{
@@ -13,6 +16,11 @@ body{
     --roxomeioescuro: #240046;
     --roxoclaro: #5a189a;
     --roxoclarinho: #9d4edd;
+    --texto-corpo: "Jersey 25 Charted", sans-serif;
+    --texto-titulo: "Poetsen One", sans-serif;
     
+}
+.titulo-principal{
+    font-family:  var(--texto-titulo);
 }
 
